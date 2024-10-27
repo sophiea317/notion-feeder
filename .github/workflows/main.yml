@@ -2,7 +2,7 @@ name: Get Feed
 
 on:
   schedule:
-    - cron: '* * * *' # 6pm IST https://cloud.google.com/scheduler/docs/configuring/cron-job-schedules
+    - cron: '* * * * *' # 6pm IST https://cloud.google.com/scheduler/docs/configuring/cron-job-schedules
   workflow_dispatch:
 
 jobs:
